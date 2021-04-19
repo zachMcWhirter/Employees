@@ -15,7 +15,6 @@ namespace employees
         // Create a public property for holding a list of current employees
         public List<Employee> Employees = new List<Employee>();
 
-
         //Create a constructor method that accepts two arguments:
         //    1. The name of the company
         //    2. The date it was created
@@ -41,7 +40,6 @@ namespace employees
                 Console.WriteLine();
             }
         }
-
     }
 }
 
